@@ -3,7 +3,7 @@
 Notices:
   - add ``https://raw.githubusercontent.com/MHEtLive/arduino-boards-index/master/package_mhetlive_index.json`` under File -> Preferences menu in Arduino IDE;
   - install ``MH-ET LIVE Boards`` under boards manager (Cntrl+Shift+B);
-  - check if lates version of usb drivers are installe or install it via ``apt install libusb-dev``;
+  - check if latest version of usb drivers are installe or install it via ``apt install libusb-dev``;
   - compile ``$micronucleus`` from ``https://github.com/micronucleus/micronucleus`` sources;
   - compile project in Arduino IDE. As a result ``*.hex`` file will be created;
   - run ``$sudo /home/alexander/.arduino15/packages/mhetlive/tools/micronucleus/2.0a4/micronucleus /tmp/arduino/sketches/D59867732257D978AB18BC415D7C4B27/*.hex``;
