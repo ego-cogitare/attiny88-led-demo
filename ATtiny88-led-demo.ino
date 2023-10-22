@@ -13,9 +13,7 @@ void loop() {
     digitalWrite(pin, HIGH);
     delay(40);
     digitalWrite(pin, LOW);
-
     pin += incr;
-
     if (pin == PINS || pin == 1) {
       incr = -incr;
     }
